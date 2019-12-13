@@ -1,0 +1,32 @@
+2019/12/12 12:02:22 AzcopyVersion  10.3.2
+2019/12/12 12:02:22 OS-Environment  windows
+2019/12/12 12:02:22 OS-Architecture  amd64
+2019/12/12 12:02:22 Log times are in UTC. Local time is 12 Dec 2019 17:32:22
+2019/12/12 12:02:22 Job-Command copy C:\New folder\durga.txt https://mycontainerdurga.blob.core.windows.net/mycontainerdurga/durga.txt?se=2020-01-11t12%3A02%3A21z&sig=-REDACTED-&sp=rwl&sr=c&sv=2018-03-28 --output-type=json --overwrite=prompt --cancel-from-stdin --follow-symlinks --recursive --from-to=LocalBlob --blob-type=Detect --put-md5 
+2019/12/12 12:02:22 Number of CPUs: 12
+2019/12/12 12:02:22 Max file buffer RAM 6.000 GB
+2019/12/12 12:02:22 Max concurrent network operations: 192 (Based on number of CPUs. Set AZCOPY_CONCURRENCY_VALUE environment variable to override)
+2019/12/12 12:02:22 Check CPU usage when dynamically tuning concurrency: true (Based on hard-coded default. Set AZCOPY_TUNE_TO_CPU environment variable to true or false override)
+2019/12/12 12:02:22 Max concurrent transfer initiation routines: 64 (Based on hard-coded default. Set AZCOPY_CONCURRENT_FILES environment variable to override)
+2019/12/12 12:02:22 Max open files when downloading: 2147483135 (auto-computed)
+2019/12/12 12:02:22 JobID=4779c92e-8d02-e04d-7c94-a25e90791612, credential type: Anonymous
+2019/12/12 12:02:22 PERF: primary performance constraint is Unknown. States: R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  0, GRs:  8
+2019/12/12 12:02:22 scheduling JobID=4779c92e-8d02-e04d-7c94-a25e90791612, Part#=0, Transfer#=0, priority=0
+2019/12/12 12:02:22 INFO: [P#0-T#0] has worker 54 which is processing TRANSFER
+2019/12/12 12:02:22 INFO: [P#0-T#0] Starting transfer: Source "%5C%5C?\\C:\\New folder\\durga.txt" Destination "https://mycontainerdurga.blob.core.windows.net/mycontainerdurga/durga.txt?se=2020-01-11t12%3A02%3A21z&sig=-REDACTED-&sp=rwl&sr=c&sv=2018-03-28". Specified chunk size 8388608
+2019/12/12 12:02:23 ==> REQUEST/RESPONSE (Try=1/154.878ms, OpTime=925.7494ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://mycontainerdurga.blob.core.windows.net/mycontainerdurga/durga.txt?se=2020-01-11t12%3A02%3A21z&sig=-REDACTED-&sp=rwl&sr=c&sv=2018-03-28&timeout=901
+   X-Ms-Request-Id: [1c57f342-d01e-000d-46e4-b0f232000000]
+
+2019/12/12 12:02:24 ==> REQUEST/RESPONSE (Try=1/155.1952ms, OpTime=158.0223ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://mycontainerdurga.blob.core.windows.net/mycontainerdurga/durga.txt?se=2020-01-11t12%3A02%3A21z&sig=-REDACTED-&sp=rwl&sr=c&sv=2018-03-28&timeout=901
+   X-Ms-Request-Id: [1c57f395-d01e-000d-17e4-b0f232000000]
+
+2019/12/12 12:02:24 ==> REQUEST/RESPONSE (Try=1/150.8618ms, OpTime=158.7951ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://mycontainerdurga.blob.core.windows.net/mycontainerdurga/durga.txt?se=2020-01-11t12%3A02%3A21z&sig=-REDACTED-&sp=rwl&sr=c&sv=2018-03-28&timeout=901
+   X-Ms-Request-Id: [1c57f3c5-d01e-000d-46e4-b0f232000000]
+
+2019/12/12 12:02:24 INFO: [P#0-T#0] UPLOADSUCCESSFUL: https://mycontainerdurga.blob.core.windows.net/mycontainerdurga/durga.txt
+2019/12/12 12:02:24 JobID=4779c92e-8d02-e04d-7c94-a25e90791612, Part#=0, TransfersDone=1 of 1
+2019/12/12 12:02:24 all parts of entire Job 4779c92e-8d02-e04d-7c94-a25e90791612 successfully completed, cancelled or paused
+2019/12/12 12:02:24 PERF: primary performance constraint is Unknown. States: R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  0, GRs: 192
